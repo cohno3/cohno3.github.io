@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokémon Crystal's Greed</title>
+    <title>Download Pokémon Crystal's Greed</title>
     <style>
         @font-face {
             font-family: 'PKMN RBYGSC';
@@ -16,6 +16,12 @@
             text-align: center;
             background-color: black;
             color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
         h1 {
             color: #E34931;
@@ -34,16 +40,24 @@
             background-color: #9932CC;
         }
         img {
-            display: block;
-            margin: 0 auto;
+            max-width: 80%;
             margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+            .button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
         }
     </style>
 </head>
 <body>
     <h1>Baixar Pokémon Crystal's Greed!</h1>
     <img src="pot_of_greed.png" alt="Imagem do Pokémon Crystal's Greed">
-    <p>Prepare-se para esta aventura emocionante.</p>
+    <p>Prepare-se para esta nova aventura emocionante.</p>
     <a class="button" href="pokecrystal16.7z" download>Baixar Agora</a>
 </body>
 </html>
